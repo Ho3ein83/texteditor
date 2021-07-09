@@ -21,7 +21,7 @@ First of all, import stylesheets and scripts in your html ```<head>```:
 <script src="js/jquery-fieldselection.js"></script>
 ```
 
-Then use editor needed elements whre you need:
+Then use editor needed elements where you need:
 ```html
 <div class="hb-editor">
   
