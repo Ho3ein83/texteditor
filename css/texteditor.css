@@ -1,0 +1,42 @@
+.hb-editor {
+    width: 95%;
+    margin: auto;
+}
+
+.hb-editor-elements {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+.hb-editor-elements > .spacer {
+    margin: 5px 10px;
+}
+
+.hb-editor-elements > div:not(.spacer) {
+    background: #f2f2f2;
+    padding: 3px 7px;
+    margin: 5px 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-family: "Comic Sans MS", FontAwesome, serif;
+}
+
+.hb-editor-elements > div.active{
+    color: #ff4646;
+}
+
+.hb-text-editor {
+    width: 100%;
+    display: block;
+    resize: none;
+    border-radius: 5px;
+    font-family: arial, serif;
+    outline: none;
+    background-color: #fff;
+    color: #414141;
+    border: 1px solid #ccc;
+    min-height: 400px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/texteditor.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/main.min.css">
+
+        <script src="js/texteditor.js"></script>
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/jquery-fieldselection.js"></script>
+
+        <title>Simple text editor</title>
+
+    </head>
+
+    <body>
+
+        <div class="editor-card">
+
+            <div class="hb-editor">
+
+                <div id="editor-element"></div>
+
+                <textarea id="editor" class="hb-text-editor" style="direction: ltr;"></textarea>
+
+                <div id="editor-view-raw" style="margin: 15px; display: none;"></div>
+
+            </div>
+
+        </div>
+
+        <script>
+
+            $(document).ready(function(){
+
+                let editor = new TextEditor(
+                    '#editor',
+                    '#editor-view-raw',
+                    '#editor-element'
+                );
+
+                editor.start();
+
+            });
+
+        </script>
+
+    </body>
+
+</html>
