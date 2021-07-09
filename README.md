@@ -48,3 +48,9 @@ $(document).ready(function(){
 
 });
 ```
+
+## Using:
+- HTML, CSS, JS
+- JQuery
+- Fontawesome
+- Fieldselection library
